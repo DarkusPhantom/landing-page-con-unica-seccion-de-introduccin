@@ -11,43 +11,35 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel='stylesheet' href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://fonts.google.com/specimen/Poppins">
-    <link rel="stylesheet" href="https://fonts.google.com/specimen/Open+Sans">
-
     <title>
       Frontend Mentor | Huddle landing page with single introductory section
     </title>
   </head>
   <body>
-    <header class="header-page">
-      <div class="logo">
-        <a href="#"><img class="img-logo" src="images/logo.svg" alt="Logo Hudley"></a>
+    <div class="container-grid">
+      <header class="landing-header">
+        <h1 class="logo">
+          <img src="./images/logo.svg" alt="" class="logo-img">
+        </h1>
+      </header>
+      <div class="landing-container-img">
+
+        <img src="./images/illustration-mockups.svg" alt="" class="landing-img">
       </div>
-    </header>
-    <div class="container">
-      <div class="container-img">
-        <img class="img-page" src="images/illustration-mockups.svg" alt="ilustracion mockups">
+      <div class="landing-info">
+        <h2 class="landing-title">Build the community your fans will love</h2>
+        <p class="landing-text">Huddle re-images the way we build communities. You have a voice, but so does your audience. Create a connection with your users as you engage in genuine disscuision.</p>
+        <button class="landing-btn btn">Register</button>
       </div>
-      <div class="content">
-        <h2 class="content-title">Build The Community your fans will love</h2>
-        <p class="content-text">Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion</p>
-        <a href="#" class="btn btn-content">Register</a>
-      </div>
+      <footer class=landing-footer>
+        <div class="social-media">
+          <span class="social-media-icon"><i class="icon-facebook"></i></span>
+          <span class="social-media-icon"><i class="icon-twitter"></i></span>
+          <span class="social-media-icon"><i class="icon-instagram"></i></span>
+        </div>
+      </footer>
     </div>
-    <footer class="footer-page">
-      <!--<div class="x">
-        <span class="x-left"></span>
-        <span class="x-right"></span>
-      </div>-->
-      <div class="social-networks">
-          <a href="#" class="btn social-networks-icons"><i class="fa fa-facebook-official"></i></a>
-          <a href="#" class="btn social-networks-icons"><i class="fa fa-twitter"></i></a>
-          <a href="#" class="btn social-networks-icons"><i class="fa fa-instagram"></i></a>
-      </div>
-    </footer>
 
-
+    <link rel="stylesheet" href="css/styles.css">
   </body>
 </html>
