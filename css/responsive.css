@@ -1,0 +1,47 @@
+@media screen and ( max-width: 375px) {
+  body {
+    background-image: url('../images/bg-mobile.svg');
+  }
+
+  .container-grid {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+  }
+
+  .logo {
+    margin: 7vh 0;
+  }
+
+  .logo-img {
+    width: 150px;
+  }
+
+  .landing-info {
+    width: auto;
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 10vh;
+  }
+  
+  .landing-title {
+    width: 100%;
+    font-size: 2.1em;
+  }
+
+  .landing-text {
+    margin: 0 auto 5vh auto;
+    font-size: 1.4em;
+  }
+
+  .landing-btn {
+    max-width: 220px;
+  }
+
+  .landing-footer {
+    width: 50%;
+    margin: 0 auto 3vh auto;
+    font-size: 14px;
+  }
+
+} 

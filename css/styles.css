@@ -57,9 +57,11 @@ body {
   padding: 0;
   background-image: url('../images/bg-desktop.svg');
   background-color: var(--color-primary);
+  background-repeat: no-repeat;
   color: var(--color-font);
   font-family: var(--open-sans); 
   font-weight: 400;
+  height: 100%
 }
 
 h1, h2 {
@@ -75,17 +77,41 @@ h1, h2 {
   width: 90%;
 }
 
+.btn {
+  width: 100%;
+  max-width: 170px;
+  height: 50px;
+  border: none;
+  border-radius: 25px;
+  box-shadow: 0px 5px 10px var(--color-secundary);
+}
+
+.btn, .social-media-icon {
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: var(--color-primary);
+  color: var(--color-font);
+}
+
+.social-media-icon:hover {
+  background-color: var(--color-font);
+  color: var(--color-primary);
+  border-radius: 50%;
+}
+
 /*Header*/
 .landing-header {
   grid-column: start / col1;
   grid-row: row1 / span row2;
   font-size: 18px;
   align-self: center;
-  width: min-content;
+  width: 100%;
 }
 
 .logo {
-  width: min-content;
+  /*width: min-content;*/
 }
 
 .logo-img {
@@ -135,14 +161,6 @@ h1, h2 {
   margin-top: 1vh;
 }
 
-.btn {
-  width: 100%;
-  max-width: 170px;
-  height: 50px;
-  border: none;
-  border-radius: 25px;
-  box-shadow: 0px 5px 10px var(--color-secundary);
-}
 /*Footer*/
 .landing-footer {
   grid-column: col5 / span end;
